@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "c19d161c-ee32-40a0-b6a2-0b4598f6ca8f",
+		"name": "Code Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1256840"
+	},
+	"item": [
+		{
+			"name": "Login API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"info@optium.com\",\n    \"password\": \"Optium@112233\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "52.5.173.237/login.php",
+					"host": [
+						"52",
+						"5",
+						"173",
+						"237"
+					],
+					"path": [
+						"login.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
